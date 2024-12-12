@@ -32,7 +32,7 @@ mathplot==0.1
 matplotlib==3.9.3
 mdurl==0.1.2
 narwhals==1.14.2
-numpy==1.21.6
+numpy>=1.21,<2.0
 packaging==24.2
 pandas==2.2.3
 patsy==1.0.1
@@ -47,11 +47,11 @@ Pygments==2.18.0
 Pympler==1.1
 pyogrio==0.10.0
 pyparsing==3.2.0
-pypiwin32==223
+pypiwin32>=223; platform_system == "Windows"
 pyproj==3.6.1
 python-dateutil==2.9.0.post0
 pytz==2024.2
-pywin32==308
+pywin32>=308; platform_system == "Windows"
 referencing==0.35.1
 requests==2.32.3
 rich==13.9.4
